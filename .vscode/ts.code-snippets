@@ -1,11 +1,10 @@
 {
-  "server only": {
-    "prefix": ["serveronly", "importserveronly", "so", "iso"],
-    "body": ["import \"server-only\"", "", "$1"]
-  },
   "use server": {
-    "scope": "typescript",
     "prefix": ["useserver", "us"],
     "body": ["\"use server\"", "", "$1"]
+  },
+  "server only": {
+    "prefix": ["serveronly", "so"],
+    "body": ["import \"server-only\"", "", "$1"]
   }
 }
